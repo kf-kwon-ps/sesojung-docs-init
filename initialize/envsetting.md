@@ -68,6 +68,16 @@ windows를 사용하지 않을 경우 언제 다시 로그인 해야 합니까? 
 
 {% tabs %}
 {% tab title="키오스크 모드" %}
+
+{% endtab %}
+
+{% tab title="일반 디버깅 모드" %}
+
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="키오스크 모드" %}
 핀치 제스쳐 불가
 
 ```
