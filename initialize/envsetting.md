@@ -40,13 +40,57 @@ windows를 사용하지 않을 경우 언제 다시 로그인 해야 합니까? 
 
 단축아이콘의 등록 정보의 명령을 다음과 같이 변경
 
-```
-//개발 서버
-"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\chrome-prod" --enable-logging --v=1 --disable-web-security --kiosk https://kioskdev.sesojung.com/
+**개발 서버용**
 
-// 상용 서버
-"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\chrome-dev" --enable-logging --v=1 --disable-web-security --disable-notifications --kiosk https://ki.sesojung.com/
+{% tabs %}
+{% tab title="일반 디버깅 모드" %}
+핀치 제스쳐 허용
+
 ```
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\chrome-dev" --disable-web-security --disable-notifications https://kioskdev.sesojung.com/
+```
+
+핀치 제스쳐 불가
+
+```
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\chrome-dev" --disable-web-security --disable-notifications --disable-pinch https://kioskdev.sesojung.com/
+```
+{% endtab %}
+
+{% tab title="키오스크 모드" %}
+핀치 제스쳐 허용
+
+```
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\chrome-dev" --disable-web-security --disable-notifications --kiosk https://kioskdev.sesojung.com/"
+```
+
+핀치 제스쳐 불가
+
+```
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\chrome-dev" --disable-web-security --disable-notifications --disable-pinch --kiosk https://kioskdev.sesojung.com/"
+```
+{% endtab %}
+{% endtabs %}
+
+**상용 서버용**
+
+{% tabs %}
+{% tab title="키오스크 모드" %}
+핀치 제스쳐 불가
+
+```
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\chrome-prod" --disable-web-security --disable-notifications --disable-pinch --kiosk https://ki.sesojung.com/"
+```
+{% endtab %}
+
+{% tab title="일반 디버깅 모드" %}
+핀치 제스쳐 허용
+
+```
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\chrome-prod" --disable-web-security --disable-notifications https://ki.sesojung.com/"
+```
+{% endtab %}
+{% endtabs %}
 
 변경된 단축아이콘은 시작프로그램으로 등록하여 윈도우가 시작될 때마다 접속하도록 합니다. ([#undefined-14](envsetting.md#undefined-14 "mention"))
 
