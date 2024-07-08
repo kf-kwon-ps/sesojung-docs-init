@@ -47,7 +47,7 @@ windows를 사용하지 않을 경우 언제 다시 로그인 해야 합니까? 
 핀치 제스쳐 허용
 
 ```
-"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\chrome-dev" --disable-web-security --disable-notifications https://kioskdev.sesojung.com/
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\sesojung-dev-normal" --disable-web-security --disable-notifications https://kioskdev.sesojung.com/
 ```
 {% endtab %}
 
@@ -55,7 +55,7 @@ windows를 사용하지 않을 경우 언제 다시 로그인 해야 합니까? 
 핀치 제스쳐 허용
 
 ```
-"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\chrome-dev" --disable-web-security --disable-notifications --kiosk https://kioskdev.sesojung.com/"
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\sesojung-dev-kiosk" --disable-web-security --disable-notifications --kiosk https://kioskdev.sesojung.com/"
 ```
 {% endtab %}
 {% endtabs %}
@@ -71,7 +71,7 @@ windows를 사용하지 않을 경우 언제 다시 로그인 해야 합니까? 
 핀치 제스쳐 불가
 
 ```
-"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\chrome-prod" --disable-web-security --disable-notifications --disable-pinch --kiosk https://ki.sesojung.com/"
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\sesojung-prod-kiosk" --disable-web-security --disable-notifications --disable-pinch --kiosk https://ki.sesojung.com/"
 ```
 {% endtab %}
 
@@ -79,7 +79,7 @@ windows를 사용하지 않을 경우 언제 다시 로그인 해야 합니까? 
 핀치 제스쳐 허용
 
 ```
-"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\chrome-prod" --disable-web-security --disable-notifications https://ki.sesojung.com/"
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\chrome-prod-normal" --disable-web-security --disable-notifications https://ki.sesojung.com/"
 ```
 {% endtab %}
 {% endtabs %}
