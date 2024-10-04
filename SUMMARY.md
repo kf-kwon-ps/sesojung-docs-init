@@ -2,7 +2,7 @@
 
 ## 초기화 <a href="#initialize" id="initialize"></a>
 
-* [필수 설치 프로그램](README.md)
+* [필수 프로그램의 설치와 설정](README.md)
 * [환경설정](initialize/envsetting.md)
 
 ## 키오스크 동작 진단 <a href="#diagnosis" id="diagnosis"></a>
