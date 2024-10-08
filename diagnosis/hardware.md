@@ -8,7 +8,7 @@
 
 제어메뉴에서는 키오스크의 상태를 조회하거나 동작을 제어 할 수 있습니다.
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="331"><figcaption><p>세소정 키오스크 제어 메뉴</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt="" width="331"><figcaption><p>세소정 키오스크 제어 메뉴</p></figcaption></figure>
 
 #### 키오스크   정보
 
