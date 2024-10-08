@@ -8,13 +8,13 @@
 
 ## 크롬 브라우져
 
-크롬 설치 후 단축아이콘을 바탕화면에 생성 한 후 단축 아이콘의 설정을열고 '대상'에새소정 실행 설정의 접속 정보를 저장하세요.
+크롬 설치 후 단축아이콘을 바탕화면에 생성 한 후 단축 아이콘의 설정을 열고 '대상'에 새소정 실행 설정의 접속 정보를 저장하세요.
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### 세소정 실행 설정
 
-개발 중인 기능을 실행해볼 수 있으며, 판매 상품은 실적으로 남지 않으니 반드시 거래 취소해야 합니다.
+개발 중인 기능을 실행해볼 수 있으며, 판매 상품은 실적으로 남지 않으니 테스트 후 반드시 거래 취소해야 합니다.
 
 세소정은 디버깅 모드와 키오스크 모드로 실행할 수 있습니다.
 
@@ -71,7 +71,7 @@
 상용 서버 접속 시에는 '일반 디버깅 모드'에서만 핀치 제스처를 허용합니다.
 {% endhint %}
 
-변경된 단축아이콘은 시작프로그램으로 등록하여 윈도우가 시작될 때마다 접속하도록 합니다.( [windows\_setting.md](initialize/windows\_setting.md "mention")/[#undefined-7](initialize/windows\_setting.md#undefined-7 "mention"))
+변경된 단축아이콘은 시작프로그램으로 등록하여 윈도우가 시작될 때마다 접속하도록 합니다.( [envsetting.md](initialize/envsetting.md "mention")/[#undefined-7](initialize/envsetting.md#undefined-7 "mention"))
 
 
 
