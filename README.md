@@ -28,7 +28,7 @@
 핀치 제스쳐 허용
 
 ```bash
-"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\sesojung-dev-normal" --disable-web-security --disable-notifications https://kioskdev.sesojung.com/
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\sesojung-dev-normal" --disable-web-security --disable-notifications --enable-logging --log-level=1 https://kioskdev.sesojung.com/
 ```
 {% endtab %}
 
@@ -36,7 +36,7 @@
 핀치 제스쳐 허용
 
 ```bash
-"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\sesojung-dev-kiosk" --disable-web-security --disable-notifications --kiosk https://kioskdev.sesojung.com/"
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\sesojung-dev-kiosk" --disable-web-security --disable-notifications --kiosk --enable-logging --log-level=1 https://kioskdev.sesojung.com/"
 ```
 {% endtab %}
 {% endtabs %}
@@ -52,7 +52,7 @@
 핀치 제스쳐 불가
 
 ```sh
-"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\sesojung-prod-kiosk" --disable-web-security --disable-notifications --disable-pinch --kiosk https://ki.sesojung.com/"
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\sesojung-prod-kiosk" --disable-web-security --disable-notifications --disable-pinch --kiosk --enable-logging --log-level=1 https://ki.sesojung.com/"
 ```
 {% endtab %}
 
@@ -60,7 +60,7 @@
 핀치 제스쳐 허용
 
 ```bash
-"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\chrome-prod-normal" --disable-web-security --disable-notifications https://ki.sesojung.com/"
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\chrome-prod-normal" --disable-web-security --disable-notifications --enable-logging --log-level=1 https://ki.sesojung.com/"
 ```
 {% endtab %}
 {% endtabs %}
@@ -77,7 +77,7 @@
 
 ### rustdesk 다운로드
 
-[rustdesk-1.2.3-1-x86\_64.exe](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-1/rustdesk-1.2.3-1-x86\_64.exe)
+[rustdesk-1.2.3-1-x86\_64.exe](https://github.com/rustdesk/rustdesk/releases/download/1.2.3-1/rustdesk-1.2.3-1-x86_64.exe)
 
 ### rustdesk 설정
 
