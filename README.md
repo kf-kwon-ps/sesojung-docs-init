@@ -117,6 +117,12 @@ VPOS를 다운로드 후 설치합니다.
 
 정보 저장, 사용자 인증, 가맹점 인증, KEY 다운로드, 창닫기 순으로 각 단계를 완료하면서 실행하면 설정이 완료됩니다.
 
+### KWONPS의 결제 에이전트 설치
+
+{% embed url="https://drive.google.com/file/d/1jtzd1CG0SeRP-YBcVWR69ayUMa4vDXa8/view?usp=drive_link" %}
+
+결제 에이전트를 다운로드 받은 후 exe 파일을 실행합니다.
+
 {% hint style="warning" %}
 2024년 6월 이전 키오스크 일부 기기는 KOVAN의 결제에이전트 VPOS 대신KSNET의 결제 에이전트를 사용합니다.
 {% endhint %}
