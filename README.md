@@ -161,23 +161,3 @@ mTouch 결제 에이전트는 설정 과정이 없습니다.
 
 </details>
 
-
-
-## 홍보 미디어 다운로드
-
-대기화면의 홍보 미디어를 정해진 디렉토리에 다운로드 합니다.
-
-도스 명령어 실행환경 (CLI)에서 다음 명령을 실행합니다.
-
-```shell
-
-mkdir c:/media && curl -o c:/media/media720p.mp4 http://kwonps.iptime.org:8200/media/media720p.mp4
-// c 드라이브에 media 디렉토리를 생성합니다.
-// media 디렉토리에 media.mp4 파일을 다운로드 합니다.
-```
-
-또는 다음 URL에서 미디어 파일을 다운로드 후 `c:/media` 디렉토리에 저장합니다.
-
-```url
-http://kwonps.iptime.org:8200/media/media.mp4
-```
