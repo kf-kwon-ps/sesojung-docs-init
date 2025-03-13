@@ -16,17 +16,15 @@
 
 ### 업데이트 해제
 
-관리자 권한으로 CLI 실행
+반드시 업데이트 해제 조치하여야 합니다.
 
-```
-sc config wuauserv start=disabled
-```
+업데이트를 해제하지 않을 경우 의도치 않은 재부팅 등으로 인해 판매자의 영업 중단을 초래할 수 있습니다.
 
 ### 작업 표시줄 자동 숨기기
 
 windows의 작업 표시줄이 나타나지 않도록 자동 숨기기 처리
 
-_설정  > 개인 설정 > 작업 표시줄_에서 `작업 표시줄 자동 숨기기` 체크
+_설정  > 개인 설정 > 작업 표시&#xC904;_&#xC5D0;서 `작업 표시줄 자동 숨기기` 체크
 
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
