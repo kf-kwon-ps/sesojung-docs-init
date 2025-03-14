@@ -50,6 +50,8 @@ windows를 사용하지 않을 경우 언제 다시 로그인 해야 합니까? 
 shell:common startup
 ```
 
-시작 폴더에 ㄱ와 [#undefined-7](envsetting.md#undefined-7 "mention")과 [#rustdesk](envsetting.md#rustdesk "mention")의단축아이콘을 각각 복사합니다.
+시작 폴더에 [결제  에이전트](../#kwonps)와 [#rustdesk](envsetting.md#rustdesk "mention")의 단축아이콘을 각각 복사합니다.
+
+(KSNET 결제를 할 경우에는 KSNET용 mtouch 결제 에이전트의 단축아이콘을 복사하세요.)
 
 시작폴더에 복사된 단축 아이콘들은 윈도우 시작 시 자동으로 실행됩니다.
