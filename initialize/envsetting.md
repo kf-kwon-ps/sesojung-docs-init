@@ -54,4 +54,16 @@ shell:common startup
 
 (KSNET 결제를 할 경우에는 KSNET용 mtouch 결제 에이전트의 단축아이콘을 복사하세요.)
 
+{% hint style="info" %}
+시작 프로그램 지정 항목
+
+* mTouch 결제 에이전트
+  * KOVAN의 경우 mtouch\_pos.exe
+  * KSNET의 경우 mtouch,.exe
+* Rust Desk
+* Van 단말 에이전
+  * KOVAN의 경우 V POS
+  * KSNET의 경우 KSCAT
+{% endhint %}
+
 시작폴더에 복사된 단축 아이콘들은 윈도우 시작 시 자동으로 실행됩니다.
