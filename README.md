@@ -27,17 +27,21 @@
 {% tab title="일반 디버깅 모드 (개발)" %}
 핀치 제스쳐 허용
 
+{% code overflow="wrap" %}
 ```bash
-"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\sesojung-dev-normal" --disable-web-security --disable-notifications --enable-logging --log-level=1 https://kioskdev.sesojung.com/
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\sesojung-dev-normal" --disable-web-security --disable-notifications --enable-logging=info --log-level=0 --disable-features=ChromeWhatsNewUI https://kioskdev.sesojung.com/
 ```
+{% endcode %}
 {% endtab %}
 
 {% tab title="키오스크 모드 (개발)" %}
 핀치 제스쳐 허용
 
+{% code overflow="wrap" %}
 ```bash
-"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\sesojung-dev-kiosk" --disable-web-security --disable-notifications --kiosk --enable-logging --log-level=1 https://kioskdev.sesojung.com/"
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\sesojung-dev-kiosk" --disable-web-security --disable-notifications --kiosk --enable-logging=info --log-level=0 --disable-features=ChromeWhatsNewUI https://kioskdev.sesojung.com/"
 ```
+{% endcode %}
 {% endtab %}
 {% endtabs %}
 
@@ -51,17 +55,23 @@
 {% tab title="키오스크 모드 (상용)" %}
 핀치 제스쳐 불가
 
+{% code overflow="wrap" %}
 ```sh
-"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\sesojung-prod-kiosk" --disable-web-security --disable-notifications --disable-pinch --kiosk --enable-logging --log-level=1 https://ki.sesojung.com/"
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\sesojung-prod-kiosk" --disable-web-security --kiosk --enable-logging=info --log-level=0 --disable-features=ChromeWhatsNewUI https://ki.sesojung.com/"
+
+// --disable-features=ChromeWhatsNewUI 항목 추가를 위해 --disable-notifications 항목을 삭제함.
 ```
+{% endcode %}
 {% endtab %}
 
 {% tab title="일반 디버깅 모드 (상용)" %}
 핀치 제스쳐 허용
 
-```bash
-"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\chrome-prod-normal" --disable-web-security --disable-notifications --enable-logging --log-level=1 https://ki.sesojung.com/"
+{% code overflow="wrap" %}
+```sh
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\chrome-prod-normal" --disable-web-security --disable-notifications --disable-pinch --enable-logging --log-level=1 https://ki.sesojung.com/"
 ```
+{% endcode %}
 {% endtab %}
 {% endtabs %}
 
