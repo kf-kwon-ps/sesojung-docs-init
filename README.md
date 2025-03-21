@@ -69,7 +69,7 @@
 
 {% code overflow="wrap" %}
 ```sh
-"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\chrome-prod-normal" --disable-web-security --disable-notifications --disable-pinch --enable-logging --log-level=1 https://ki.sesojung.com/"
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="C:\chrome-prod-normal" --disable-web-security --disable-notifications --disable-pinch --enable-logging=info --log-level=1 https://ki.sesojung.com/"
 ```
 {% endcode %}
 {% endtab %}
