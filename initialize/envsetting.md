@@ -50,16 +50,20 @@ windows를 사용하지 않을 경우 언제 다시 로그인 해야 합니까? 
 shell:common startup
 ```
 
-시작 폴더에 [결제  에이전트](../#kwonps)와 [Rust Desk](../#rustdesk-2)의 단축아이콘을 각각 복사합니다.
+시작 프로그램폴더가 열리면 [결제  에이전트](../#kwonps)와 [Rust Desk](../#rustdesk-2)의 **단축아이콘**을 각각 복사합니다.
+
+{% hint style="danger" %}
+단축아이콘을 생성하지 않고, 실행파일(exe, com 등)을 넣으면 정상 동작하지 않습니다.
+{% endhint %}
 
 (KSNET 결제를 할 경우에는 KSNET용 mtouch 결제 에이전트의 단축아이콘을 복사하세요.)
 
 {% hint style="info" %}
-시작 프로그램 지정 항목
+시작 프로그램에 단축아이콘을 생성할 항목
 
 * mTouch 결제 에이전트
   * KOVAN의 경우 mtouch\_pos.exe
-  * KSNET의 경우 mtouch,.exe
+  * KSNET의 경우 mtouch.exe
 * Rust Desk
 * Van 단말 에이전
   * KOVAN의 경우 V POS
